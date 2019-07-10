@@ -1,0 +1,35 @@
+.navbar{
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+
+.search-custom{
+    position: relative;
+    width: 100%;
+}
+    .search-custom input{
+        width: inherit !important;
+        padding-right: 50px;
+        background-color: #e4e7f4;
+        font-size: 16px;
+        border: transparent;
+        margin-left: 24px;
+        /* color: #9198af; */
+    }
+    .search-custom button{
+        position: absolute;
+        right: 0;
+        cursor: inherit !important;
+    }
+    .search-custom button:hover{
+        background: none !important;
+    }
+
+.navbar-brand{
+    margin-right: 60px;
+}
+
+.navbar-nav{
+    width: 83%;
+}
+

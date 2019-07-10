@@ -1,0 +1,53 @@
+#formTelefone{
+    width: 33.33333%;
+}
+
+.modal-content{
+    border-radius: 16px;
+}
+
+.modal-title{
+    font-size: 16px !important;
+}
+
+.form-label{
+    font-size: 14px !important;
+}
+
+.btn-danger{
+    border-radius: 16px !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16) !important;
+    background-color: #fa7268 !important;
+    border-color: transparent !important;
+}
+
+.btn-link{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fa7268 !important;
+}
+
+.button-add-contact{
+    width: 144px;
+    height: 40px;
+    background-color: #dbff90;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    border: 1px inset rgba(255, 255, 255, 0.16);
+    color:#fa7268;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+    .button-add-contact svg{
+        margin-left: -8.5px;
+    }
+
+    .button-add-contact:hover{
+        background-color: #c1e081 !important;
+        color: #fa7268 !important;
+        border-color: transparent !important;
+    }
+    .button-add-contact .icon{
+        font-size: 30px;
+    }

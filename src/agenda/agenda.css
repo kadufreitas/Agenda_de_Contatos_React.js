@@ -1,0 +1,13 @@
+.bg-light{
+    background-color: #f8f9fd !important;
+}
+
+.emptyBook{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    margin-top: 5rem;
+}
+    .emptyBook span{
+        margin: 24px 0;
+    }

@@ -1,0 +1,83 @@
+.actions{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-table{
+    margin-top: 16px;
+    border-radius: 4px;
+}
+table{
+    margin-bottom: 0px !important;
+    border-radius: 4px;
+    overflow: hidden;
+    border: none;
+    border-width: 1px 0px 1px 1px !important;
+}
+    table td, table th{
+        border-width: 0px !important;
+        vertical-align: middle;
+    }
+    table tr{
+        background-color: white;
+    }
+    .table-hover tbody tr:hover{
+        background-color: #fff3f2 !important;
+        cursor: pointer;
+    }
+
+    table td{
+        border-width: 2px 0px 0px 0px !important;
+        color:#2a2d3b;
+        font-size: 14px;
+        padding: 3px .75rem !important;
+        vertical-align: middle !important;
+    }
+    
+    table tr td:first-child{
+        padding: 3px 0rem !important;
+    }
+
+    table th{
+        color:#9198af;
+        font-size: 13px;
+        padding: 16px .75rem 6px !important;
+    }
+
+.actionButton{
+    background-color: transparent;
+    border: transparent;
+    border-radius: 50%;
+    margin: 0 6px;
+    font-size: 16px;
+    color: #9198af !important;
+}
+    .actionButton:active{
+        background-color: rgba(0, 0, 0, 0.08) !important;
+        border-color: transparent !important;
+    }
+    .actionButton:hover{
+        /* transform: scale(1.3); */
+        background: rgba(0, 0, 0, 0.04);        
+        box-shadow: none !important;
+    }
+    .actionButton:focus{
+        outline-style: unset;
+        box-shadow: none !important;
+    }
+
+.new-contato{
+    background-color: #fff3f2 !important;
+}
+
+.contato-icon   {
+    text-transform: uppercase;
+    /* background: goldenrod; */
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    color:white;
+    text-align: center;
+    font-size: 16px;
+}
